@@ -1,12 +1,20 @@
 # ST-LineFollower
 
-  Overview - 2-3 krótkie zdania, które mówią o czym jest projekt.
+  Overview - LineFollower is a robot which follow black line in white area.
 
-  Description - bardziej rozbudowany opis projektu - z czego się składa (np. aplikacji
-na PC i STM32), główne moduły, metodologia wykorzystana do tworzenia.
+  Description - Robot use three reflective optical sensor to detect black line on the floor and keep following it. Microcontroller read input from sensors and decide about changing robot direction. Based on the received inputs it change motor speed to maintain correct course. 
+Components:
+- CNY70
+- ATmega8A-PU
+- H-bridge
+- 2x servomechanism
+- 2x 9V battery
+Tools
 
-  Tools - jakie narzędzie zostały użyte - wersje itp. Jeśli używany jest sterownik
-(VPC) to tutaj podać jaki, skąd pobrać. Jaki język.
+
+  Tools 
+- Atmel Studio 7.0
+- AVRDude
 
   How to run - wskazać swoją wersję release i co jest niezbędne aby ją uruchomić.
 Dodatkowo opisać jak używać programu.
@@ -14,12 +22,7 @@ Dodatkowo opisać jak używać programu.
   How to compile - czy niezbędne jest podjęcie jakiś specjalnych kroków, czy
 wystarczy skopiować?
 
-  Future improvements - co w projekcie można poprawić, czy występują bugi?
-
-  Attributions - jeśli wykorzystano jakieś fragmenty kodu - wskazać skąd, jeśli na
-czymś bazowano - wskazać, jeśli grafika nie jest autorska - wskazać kto jest
-autorem. W projektach wykorzystujących Virtual Port Com wskazać:
-https://github.com/xenovacivus/STM32DiscoveryVCP
+  Future improvements - Increase in speed and accuracy.
 
   License:
 The MIT License (MIT)
