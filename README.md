@@ -17,8 +17,7 @@ Tools
 - Atmel Studio 7.0
 - AVRDude
 
-  How to run - wskazać swoją wersję release i co jest niezbędne aby ją uruchomić.
-Dodatkowo opisać jak używać programu.
+  How to run - flash on to the board by AVRDude
 
   How to compile - You just have to run the project in a console of Atmel Studio 7.0
 
