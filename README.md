@@ -1,4 +1,4 @@
-# ST-LineFollower
+﻿# ST-LineFollower
 
   Overview - LineFollower is a robot which follow black line in white area.
 
@@ -13,14 +13,14 @@ Tools
 
 
   Tools 
+- language C
 - Atmel Studio 7.0
 - AVRDude
 
   How to run - wskazać swoją wersję release i co jest niezbędne aby ją uruchomić.
 Dodatkowo opisać jak używać programu.
 
-  How to compile - czy niezbędne jest podjęcie jakiś specjalnych kroków, czy
-wystarczy skopiować?
+  How to compile - You just have to run the project in a console of Atmel Studio 7.0
 
   Future improvements - Increase in speed and accuracy.
 
